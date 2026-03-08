@@ -3,15 +3,19 @@ A cusomisable app to pull and parse RSS scripts into a browser / terminal
 
 All scripts are without any kind of warranty, use entirely at your own risk!
 
-On linux place into /user/local/bin/ and change permissions as follows: 
-sudo chown root /user/local/bin/pcinfo.sh 
-sudo chmod 755 /user/local/bin/pcinfo.sh
-sudo mv /user/local/bin/pcinfo.sh /user/local/bin/pcinfo
+# INSTALL (Linux)
+Either 
+  Make the install script executable and run it in the cloned folder (install_rss-News_sh).
+Or
+  place files into into /user/local/bin/ and change permissions as follows: 
+  sudo chown root /user/local/bin/rss_news_sh.sh 
+  sudo chmod 755 /user/local/bin/rss_news_sh.sh
+  sudo mv /user/local/bin/rss_news_sh.sh /user/local/bin/rss_news_sh
 
-Dependancies: aria2
-sudo apt-get install aria2 
+Dependancies: curl
+sudo apt-get install curl 
 
-The rss.news.sh file will attempt to load a browser to read the output, in openbox it calls x-www-browser
-the rss_ews_cli.sh file open the output into the terminal, but does not create links to the articles.
+The rss_news_sh file open the output into the terminal, but does not create links to the articles.
+the rss_news_browser.sh File will attempt to load a browser to read the output, in wayland it calls firefox.
 
 END

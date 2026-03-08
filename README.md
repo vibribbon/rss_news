@@ -9,12 +9,12 @@ sudo apt-get install curl
 
 ## Install (Linux)
 Either  
-  Make the install script executable and run it in the cloned folder (install_rss-News_sh).
+  Make the install script executable and run it in the cloned folder (install_rss-News_sh).  
 Or  
-  place files into into /user/local/bin/ and change permissions as follows: 
-  sudo chown root /user/local/bin/rss_news_sh.sh 
-  sudo chmod 755 /user/local/bin/rss_news_sh.sh
-  sudo mv /user/local/bin/rss_news_sh.sh /user/local/bin/rss_news_sh
+  place files into into /user/local/bin/ and change permissions as follows:  
+  sudo chown root /user/local/bin/rss_news_sh.sh  
+  sudo chmod 755 /user/local/bin/rss_news_sh.sh  
+  sudo mv /user/local/bin/rss_news_sh.sh /user/local/bin/rss_news_sh  
 
 ## Description
 The rss_news_sh file open the output into the terminal, but does not create links to the articles.

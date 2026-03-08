@@ -3,14 +3,14 @@ A cusomisable app to pull and parse RSS scripts into a browser / terminal.  (Ter
 
 All scripts are without any kind of warranty, use entirely at your own risk!
 
-## Dependancies: 
-curl
+## Dependancies
+curl  
 sudo apt-get install curl 
 
 ## Install (Linux)
-Either 
+Either  
   Make the install script executable and run it in the cloned folder (install_rss-News_sh).
-Or
+Or  
   place files into into /user/local/bin/ and change permissions as follows: 
   sudo chown root /user/local/bin/rss_news_sh.sh 
   sudo chmod 755 /user/local/bin/rss_news_sh.sh
